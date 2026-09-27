@@ -8,6 +8,7 @@ import sys
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+# Test comment: Pokémon agent practice project.
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / '.cache'
 API = 'https://pokeapi.co/api/v2'
